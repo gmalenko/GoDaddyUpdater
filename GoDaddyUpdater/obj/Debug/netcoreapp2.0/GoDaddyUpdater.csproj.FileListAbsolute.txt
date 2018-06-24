@@ -1,0 +1,12 @@
+D:\Development\Kalfoni\GoDaddyUpdater\GoDaddyUpdater\bin\Debug\netcoreapp2.0\GoDaddyUpdater.deps.json
+D:\Development\Kalfoni\GoDaddyUpdater\GoDaddyUpdater\bin\Debug\netcoreapp2.0\GoDaddyUpdater.runtimeconfig.json
+D:\Development\Kalfoni\GoDaddyUpdater\GoDaddyUpdater\bin\Debug\netcoreapp2.0\GoDaddyUpdater.runtimeconfig.dev.json
+D:\Development\Kalfoni\GoDaddyUpdater\GoDaddyUpdater\bin\Debug\netcoreapp2.0\GoDaddyUpdater.dll
+D:\Development\Kalfoni\GoDaddyUpdater\GoDaddyUpdater\obj\Debug\netcoreapp2.0\GoDaddyUpdater.csprojAssemblyReference.cache
+D:\Development\Kalfoni\GoDaddyUpdater\GoDaddyUpdater\obj\Debug\netcoreapp2.0\GoDaddyUpdater.csproj.CoreCompileInputs.cache
+D:\Development\Kalfoni\GoDaddyUpdater\GoDaddyUpdater\obj\Debug\netcoreapp2.0\GoDaddyUpdater.AssemblyInfoInputs.cache
+D:\Development\Kalfoni\GoDaddyUpdater\GoDaddyUpdater\obj\Debug\netcoreapp2.0\GoDaddyUpdater.AssemblyInfo.cs
+D:\Development\Kalfoni\GoDaddyUpdater\GoDaddyUpdater\bin\Debug\netcoreapp2.0\GoDaddyUpdater.pdb
+D:\Development\Kalfoni\GoDaddyUpdater\GoDaddyUpdater\obj\Debug\netcoreapp2.0\GoDaddyUpdater.dll
+D:\Development\Kalfoni\GoDaddyUpdater\GoDaddyUpdater\obj\Debug\netcoreapp2.0\GoDaddyUpdater.pdb
+D:\Development\Kalfoni\GoDaddyUpdater\GoDaddyUpdater\bin\Debug\netcoreapp2.0\appsettings.json

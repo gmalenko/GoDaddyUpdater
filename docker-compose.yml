@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  godaddyupdater:
+    image: ${DOCKER_REGISTRY}godaddyupdater
+    build:
+      context: .
+      dockerfile: GoDaddyUpdater\Dockerfile
