@@ -23,6 +23,14 @@ namespace GoDaddyUpdater
             try
             {
                 var currentIp = new CurrentIpAddress(configuration["ExternalIpServiceUrl"]);
+                var goDaddy = new GoDaddy()
+                {
+                    ApiUrl = configuration["GoDaddyUrl"],
+                    DnsName = configuration["DnsName"],
+                    DnsType = configuration["DnsType"],
+                    Domain = configuration["Domain"]
+                };
+                goDaddy.GetDnsRecord(goDaddy);
                 Console.WriteLine(currentIp.Value);
             }
             catch(Exception e)

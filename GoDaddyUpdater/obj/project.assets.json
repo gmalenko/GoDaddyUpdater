@@ -989,23 +989,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\idris\\.nuget\\packages\\": {},
+    "C:\\Users\\gmale\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Development\\Kalfoni\\GoDaddyUpdater\\GoDaddyUpdater\\GoDaddyUpdater.csproj",
+      "projectUniqueName": "D:\\Development\\KalfoniDevelopment\\GoDaddyUpdater\\GoDaddyUpdater\\GoDaddyUpdater.csproj",
       "projectName": "GoDaddyUpdater",
-      "projectPath": "D:\\Development\\Kalfoni\\GoDaddyUpdater\\GoDaddyUpdater\\GoDaddyUpdater.csproj",
-      "packagesPath": "C:\\Users\\idris\\.nuget\\packages\\",
-      "outputPath": "D:\\Development\\Kalfoni\\GoDaddyUpdater\\GoDaddyUpdater\\obj\\",
+      "projectPath": "D:\\Development\\KalfoniDevelopment\\GoDaddyUpdater\\GoDaddyUpdater\\GoDaddyUpdater.csproj",
+      "packagesPath": "C:\\Users\\gmale\\.nuget\\packages\\",
+      "outputPath": "D:\\Development\\KalfoniDevelopment\\GoDaddyUpdater\\GoDaddyUpdater\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\idris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gmale\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1013,10 +1013,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Development\\Local Nuget": {},
-        "https://kalfoni.pkgs.visualstudio.com/_packaging/Kalfoni.PackageFeed/nuget/v3/index.json": {},
-        "https://nuget.devexpress.com/cD7r3YiGagBbJJhpzwcwnSlctDmvhF3ILZY5bHqbGuReMRMZ1N/api": {},
-        "https://www.nuget.org/api/v2/": {},
+        "https://api.nuget.org/v3/index.json": {},
         "https://zenqms.pkgs.visualstudio.com/_packaging/ZenQms_Package_Feed/nuget/v3/index.json": {}
       },
       "frameworks": {

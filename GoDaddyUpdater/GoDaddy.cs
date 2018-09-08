@@ -1,4 +1,5 @@
-﻿using RestSharp;
+﻿using Newtonsoft.Json;
+using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -22,13 +23,16 @@ namespace GoDaddyUpdater
             var client = new RestClient(BuildApiUrl());
             var request = new RestRequest(Method.GET);
             var response = client.Execute(request);
+            dynamic dynamicResponse = JsonConvert.DeserializeObject(response.Content);
+            this.IpAddress = dynamicResponse.data;
+            this.Ttl = Convert.ToInt32(dynamicResponse.ttl);
             
         }
 
 
         private string BuildApiUrl()
         {
-            return ApiUrl + $"/v1/domains/{this.Domain}/records/{this.DnsType}/{this.DnsName}"            
+            return ApiUrl + $"/v1/domains/{this.Domain}/records/{this.DnsType}/{this.DnsName}";     
         }
     }
 }
