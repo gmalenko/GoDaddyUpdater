@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace GoDaddyUpdater
 {
@@ -28,9 +29,16 @@ namespace GoDaddyUpdater
                     ApiUrl = configuration["GoDaddyUrl"],
                     DnsName = configuration["DnsName"],
                     DnsType = configuration["DnsType"],
-                    Domain = configuration["Domain"]
+                    Domain = configuration["Domain"],
+                    ApiKey = configuration["ApiKey"],
+                    ApiSecret = configuration["ApiSecret"],
                 };
                 goDaddy.GetDnsRecord(goDaddy);
+                currentIp.Value = Regex.Replace(currentIp.Value, @"\t|\n|\r", "");
+                if(goDaddy.IpAddress != currentIp.Value)
+                {
+                    //update godaddy
+                }
                 Console.WriteLine(currentIp.Value);
             }
             catch(Exception e)
